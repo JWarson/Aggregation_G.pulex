@@ -1,0 +1,5 @@
+This directory contains data and R script of an experiment on aggregation behavior in Gammarus pulex. 
+In the script, two aggregation measures (inter-individual distance and nearest neighbor) are calculated based on X and Y pixel coördinates retrieved in ImageJ (FIJI) with MtrackJ plugin.
+A autocorrelation model was fitted from the resulting data and the effects were plotted using ggplot2.
+You can download the .zip file, extract the content to a single folder, open the R-script and everything should run out of the box.
+A shortend version requiring 'fullData.csv' and 'fullDataZoomed.csv' is also supplied.
